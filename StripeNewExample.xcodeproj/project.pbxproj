@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8455DF5923FD3F6A004F8218 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455DF5823FD3F6A004F8218 /* ProductModel.swift */; };
+		8455DF5B23FD61DC004F8218 /* PaymentGatewayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455DF5A23FD61DC004F8218 /* PaymentGatewayViewController.swift */; };
+		845A9E6E23FE466300468270 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E6523FE466300468270 /* SVRadialGradientLayer.m */; };
+		845A9E6F23FE466300468270 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E6823FE466300468270 /* SVProgressAnimatedView.m */; };
+		845A9E7023FE466300468270 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E6A23FE466300468270 /* SVProgressHUD.m */; };
+		845A9E7123FE466300468270 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E6B23FE466300468270 /* SVIndefiniteAnimatedView.m */; };
+		845A9E7223FE466300468270 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 845A9E6C23FE466300468270 /* SVProgressHUD.bundle */; };
+		845A9E7623FE4CE200468270 /* SVIndefiniteAnimatedView.h in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E6623FE466300468270 /* SVIndefiniteAnimatedView.h */; };
+		845A9E7723FE4CE200468270 /* SVProgressHUD.h in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E6723FE466300468270 /* SVProgressHUD.h */; };
+		845A9E7823FE4CE200468270 /* SVRadialGradientLayer.h in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E6923FE466300468270 /* SVRadialGradientLayer.h */; };
+		845A9E7923FE4CE200468270 /* SVProgressAnimatedView.h in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E6D23FE466300468270 /* SVProgressAnimatedView.h */; };
+		845A9E7A23FE4CF700468270 /* StripeNewExample-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E7523FE47AE00468270 /* StripeNewExample-Bridging-Header.h */; };
+		845A9E7E23FE506600468270 /* PostMethodAPICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E7C23FE506600468270 /* PostMethodAPICall.swift */; };
+		845A9E7F23FE506600468270 /* GetMethodAPICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A9E7D23FE506600468270 /* GetMethodAPICall.swift */; };
 		845CB7D323EBDA4300E4679A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB7D223EBDA4300E4679A /* AppDelegate.swift */; };
 		845CB7D523EBDA4300E4679A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB7D423EBDA4300E4679A /* SceneDelegate.swift */; };
 		845CB7D723EBDA4300E4679A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB7D623EBDA4300E4679A /* ViewController.swift */; };
-		845CB7DA23EBDA4300E4679A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845CB7D823EBDA4300E4679A /* Main.storyboard */; };
 		845CB7DC23EBDA4500E4679A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845CB7DB23EBDA4500E4679A /* Assets.xcassets */; };
 		845CB7DF23EBDA4500E4679A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845CB7DD23EBDA4500E4679A /* LaunchScreen.storyboard */; };
+		845CB7E723EC08B600E4679A /* MyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB7E623EC08B600E4679A /* MyAPIClient.swift */; };
+		845CB7E923EC391800E4679A /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845CB7E823EC391800E4679A /* ProductCell.swift */; };
+		849E1EDA23FC012F00D3C02B /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E1ED923FC012F00D3C02B /* BadgeView.swift */; };
+		849E1EDC23FC136C00D3C02B /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E1EDB23FC136C00D3C02B /* CheckoutViewController.swift */; };
+		B581F774F5433936BF9608C7 /* Pods_StripeNewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7041F13C93ACF68CBC272D75 /* Pods_StripeNewExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7041F13C93ACF68CBC272D75 /* Pods_StripeNewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StripeNewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD924FDB7331851869EDDA4 /* Pods-StripeNewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeNewExample.debug.xcconfig"; path = "Target Support Files/Pods-StripeNewExample/Pods-StripeNewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		8455DF5823FD3F6A004F8218 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		8455DF5A23FD61DC004F8218 /* PaymentGatewayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGatewayViewController.swift; sourceTree = "<group>"; };
+		845A9E6523FE466300468270 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		845A9E6623FE466300468270 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		845A9E6723FE466300468270 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		845A9E6823FE466300468270 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		845A9E6923FE466300468270 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		845A9E6A23FE466300468270 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		845A9E6B23FE466300468270 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		845A9E6C23FE466300468270 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		845A9E6D23FE466300468270 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		845A9E7523FE47AE00468270 /* StripeNewExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StripeNewExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		845A9E7C23FE506600468270 /* PostMethodAPICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostMethodAPICall.swift; sourceTree = "<group>"; };
+		845A9E7D23FE506600468270 /* GetMethodAPICall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMethodAPICall.swift; sourceTree = "<group>"; };
 		845CB7CF23EBDA4300E4679A /* StripeNewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripeNewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845CB7D223EBDA4300E4679A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845CB7D423EBDA4300E4679A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		845CB7D623EBDA4300E4679A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		845CB7D923EBDA4300E4679A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845CB7DB23EBDA4500E4679A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845CB7DE23EBDA4500E4679A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845CB7E023EBDA4500E4679A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845CB7E623EC08B600E4679A /* MyAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPIClient.swift; sourceTree = "<group>"; };
+		845CB7E823EC391800E4679A /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		849E1ED923FC012F00D3C02B /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		849E1EDB23FC136C00D3C02B /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		CF0B6214DD972DF67D4F2081 /* Pods-StripeNewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StripeNewExample.release.xcconfig"; path = "Target Support Files/Pods-StripeNewExample/Pods-StripeNewExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B581F774F5433936BF9608C7 /* Pods_StripeNewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		845A9E6323FE466300468270 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				845A9E6523FE466300468270 /* SVRadialGradientLayer.m */,
+				845A9E6623FE466300468270 /* SVIndefiniteAnimatedView.h */,
+				845A9E6723FE466300468270 /* SVProgressHUD.h */,
+				845A9E6823FE466300468270 /* SVProgressAnimatedView.m */,
+				845A9E6923FE466300468270 /* SVRadialGradientLayer.h */,
+				845A9E6A23FE466300468270 /* SVProgressHUD.m */,
+				845A9E6B23FE466300468270 /* SVIndefiniteAnimatedView.m */,
+				845A9E6C23FE466300468270 /* SVProgressHUD.bundle */,
+				845A9E6D23FE466300468270 /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		845A9E7B23FE506600468270 /* ServiceCall */ = {
+			isa = PBXGroup;
+			children = (
+				845A9E7C23FE506600468270 /* PostMethodAPICall.swift */,
+				845A9E7D23FE506600468270 /* GetMethodAPICall.swift */,
+			);
+			path = ServiceCall;
+			sourceTree = "<group>";
+		};
 		845CB7C623EBDA4300E4679A = {
 			isa = PBXGroup;
 			children = (
 				845CB7D123EBDA4300E4679A /* StripeNewExample */,
 				845CB7D023EBDA4300E4679A /* Products */,
+				EECE9FC17D6FAEFB098D3CA3 /* Pods */,
+				A5A37695F12C139922249D3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +125,37 @@
 				845CB7D223EBDA4300E4679A /* AppDelegate.swift */,
 				845CB7D423EBDA4300E4679A /* SceneDelegate.swift */,
 				845CB7D623EBDA4300E4679A /* ViewController.swift */,
-				845CB7D823EBDA4300E4679A /* Main.storyboard */,
 				845CB7DB23EBDA4500E4679A /* Assets.xcassets */,
 				845CB7DD23EBDA4500E4679A /* LaunchScreen.storyboard */,
 				845CB7E023EBDA4500E4679A /* Info.plist */,
+				845CB7E623EC08B600E4679A /* MyAPIClient.swift */,
+				845CB7E823EC391800E4679A /* ProductCell.swift */,
+				849E1ED923FC012F00D3C02B /* BadgeView.swift */,
+				849E1EDB23FC136C00D3C02B /* CheckoutViewController.swift */,
+				8455DF5823FD3F6A004F8218 /* ProductModel.swift */,
+				8455DF5A23FD61DC004F8218 /* PaymentGatewayViewController.swift */,
+				845A9E7B23FE506600468270 /* ServiceCall */,
+				845A9E6323FE466300468270 /* SVProgressHUD */,
+				845A9E7523FE47AE00468270 /* StripeNewExample-Bridging-Header.h */,
 			);
 			path = StripeNewExample;
+			sourceTree = "<group>";
+		};
+		A5A37695F12C139922249D3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7041F13C93ACF68CBC272D75 /* Pods_StripeNewExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EECE9FC17D6FAEFB098D3CA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BD924FDB7331851869EDDA4 /* Pods-StripeNewExample.debug.xcconfig */,
+				CF0B6214DD972DF67D4F2081 /* Pods-StripeNewExample.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845CB7E323EBDA4500E4679A /* Build configuration list for PBXNativeTarget "StripeNewExample" */;
 			buildPhases = (
+				493F7446E75902DA261477A1 /* [CP] Check Pods Manifest.lock */,
 				845CB7CB23EBDA4300E4679A /* Sources */,
 				845CB7CC23EBDA4300E4679A /* Frameworks */,
 				845CB7CD23EBDA4300E4679A /* Resources */,
+				0C277DD5B7DA29F4BA41BEE2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +219,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				845CB7DF23EBDA4500E4679A /* LaunchScreen.storyboard in Resources */,
+				845A9E7223FE466300468270 /* SVProgressHUD.bundle in Resources */,
 				845CB7DC23EBDA4500E4679A /* Assets.xcassets in Resources */,
-				845CB7DA23EBDA4300E4679A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C277DD5B7DA29F4BA41BEE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StripeNewExample/Pods-StripeNewExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StripeNewExample/Pods-StripeNewExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StripeNewExample/Pods-StripeNewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		493F7446E75902DA261477A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StripeNewExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		845CB7CB23EBDA4300E4679A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845A9E7A23FE4CF700468270 /* StripeNewExample-Bridging-Header.h in Sources */,
+				845A9E7623FE4CE200468270 /* SVIndefiniteAnimatedView.h in Sources */,
+				845A9E7723FE4CE200468270 /* SVProgressHUD.h in Sources */,
+				845A9E7823FE4CE200468270 /* SVRadialGradientLayer.h in Sources */,
+				845A9E7923FE4CE200468270 /* SVProgressAnimatedView.h in Sources */,
+				849E1EDA23FC012F00D3C02B /* BadgeView.swift in Sources */,
+				845A9E7E23FE506600468270 /* PostMethodAPICall.swift in Sources */,
+				845A9E7123FE466300468270 /* SVIndefiniteAnimatedView.m in Sources */,
+				8455DF5B23FD61DC004F8218 /* PaymentGatewayViewController.swift in Sources */,
+				845A9E6F23FE466300468270 /* SVProgressAnimatedView.m in Sources */,
 				845CB7D723EBDA4300E4679A /* ViewController.swift in Sources */,
 				845CB7D323EBDA4300E4679A /* AppDelegate.swift in Sources */,
+				845A9E7F23FE506600468270 /* GetMethodAPICall.swift in Sources */,
+				845A9E7023FE466300468270 /* SVProgressHUD.m in Sources */,
+				845CB7E923EC391800E4679A /* ProductCell.swift in Sources */,
 				845CB7D523EBDA4300E4679A /* SceneDelegate.swift in Sources */,
+				845CB7E723EC08B600E4679A /* MyAPIClient.swift in Sources */,
+				849E1EDC23FC136C00D3C02B /* CheckoutViewController.swift in Sources */,
+				8455DF5923FD3F6A004F8218 /* ProductModel.swift in Sources */,
+				845A9E6E23FE466300468270 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		845CB7D823EBDA4300E4679A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				845CB7D923EBDA4300E4679A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		845CB7DD23EBDA4500E4679A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +426,7 @@
 		};
 		845CB7E423EBDA4500E4679A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD924FDB7331851869EDDA4 /* Pods-StripeNewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -293,6 +438,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sr.StripeNewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StripeNewExample/StripeNewExample-Bridging-Header.h";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +447,7 @@
 		};
 		845CB7E523EBDA4500E4679A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0B6214DD972DF67D4F2081 /* Pods-StripeNewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +459,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sr.StripeNewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StripeNewExample/StripeNewExample-Bridging-Header.h";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

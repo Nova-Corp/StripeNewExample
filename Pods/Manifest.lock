@@ -1,0 +1,73 @@
+PODS:
+  - MaterialComponents/AnimationTiming (105.0.0)
+  - MaterialComponents/Availability (105.0.0)
+  - MaterialComponents/Buttons (105.0.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (105.0.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (105.0.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (105.0.0)
+  - MaterialComponents/private/Application (105.0.0)
+  - MaterialComponents/private/Color (105.0.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (105.0.0)
+  - MaterialComponents/Ripple (105.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (105.0.0)
+  - MaterialComponents/ShadowLayer (105.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (105.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/TextFields (105.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (105.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - Stripe (18.4.0)
+
+DEPENDENCIES:
+  - MaterialComponents/TextFields
+  - Stripe
+
+SPEC REPOS:
+  trunk:
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - Stripe
+
+SPEC CHECKSUMS:
+  MaterialComponents: 5c7033b735f9b7ec4f32d8a27df6f6c0e3bcc08b
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  Stripe: fa837c60f0644b488c994024ce7d9b001ea4e97c
+
+PODFILE CHECKSUM: bbdcf1ca89935efece9673d7abd8ff0d970cee03
+
+COCOAPODS: 1.8.4
